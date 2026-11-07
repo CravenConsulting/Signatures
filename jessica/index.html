@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jessica Krueger – Craven Consulting</title>
+<meta name="description" content="Bookkeeper and Tax Preparer at Craven Consulting.">
+<meta property="og:title" content="Jessica Krueger – Craven Consulting">
+<meta property="og:description" content="Bookkeeper, Tax Preparer">
+<meta name="theme-color" content="#1b4237">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { --em: #1b4237; --gold: #b8874d; --gold-text: #8f6534; --cream: #f1eddc; --line: #e2dbc3; --ink: #2b3a35; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--cream); font-family: 'Jost', Arial, Helvetica, sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+  .card { max-width: 440px; margin: 0 auto; min-height: 100vh; background: #fff; padding-bottom: calc(32px + env(safe-area-inset-bottom, 0px)); }
+  @media (min-width: 480px) { body { padding: 32px 16px; } .card { min-height: 0; border-radius: 18px; overflow: hidden; border: 1px solid var(--line); } }
+  .header { height: 150px; background: var(--em) url('../images/card-header.jpg') center / cover no-repeat; }
+  .photo { display: block; width: 132px; height: 132px; margin: -70px auto 0; position: relative; }
+  .who { text-align: center; padding: 14px 24px 0; }
+  h1 { font-size: 28px; font-weight: 500; color: var(--em); margin: 0; letter-spacing: 0.2px; }
+  .title { font-size: 17px; margin: 4px 0 0; }
+  .firm { font-size: 16px; color: var(--gold-text); font-style: italic; margin: 2px 0 0; }
+  .actions { padding: 24px 24px 0; display: grid; gap: 10px; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 10px; min-height: 50px; border-radius: 10px; font-size: 16px; font-weight: 500; text-decoration: none; border: 1px solid var(--line); color: var(--em); background: #fff; }
+  .btn svg { width: 20px; height: 20px; flex: none; }
+  .btn.primary { background: var(--em); color: var(--cream); border-color: var(--gold); }
+  .btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .details { margin: 22px 24px 0; padding-top: 18px; border-top: 1px solid var(--line); font-size: 15px; line-height: 1.9; }
+  .details a { color: var(--em); text-decoration: none; }
+  .details span { color: var(--gold-text); display: inline-block; width: 64px; }
+  .share { margin: 22px 24px 0; padding: 20px; background: var(--cream); border-radius: 14px; text-align: center; }
+  .share p { margin: 0 0 14px; font-size: 15px; color: var(--em); }
+  #qr { display: inline-block; padding: 12px; background: #fff; border-radius: 10px; border: 1px solid var(--line); line-height: 0; }
+  #qr img, #qr canvas { width: 180px !important; height: 180px !important; }
+  .share button { display: block; margin: 14px auto 0; font: inherit; font-size: 14px; color: var(--gold-text); background: none; border: 0; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .logo { display: block; width: 150px; margin: 26px auto 0; }
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="header" role="img" aria-label="Craven Consulting pattern"></div>
+  <img class="photo" src="../images/headshot.png" alt="Jessica Krueger" width="132" height="132">
+
+  <div class="who">
+    <h1>Jessica Krueger</h1>
+    <p class="title">Bookkeeper, Tax Preparer</p>
+    <p class="firm">Craven Consulting</p>
+  </div>
+
+  <div class="actions">
+    <a class="btn primary" href="../jessica-krueger.vcf" download="Jessica Krueger.vcf">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-6 7-6s7 2 7 6"/><path d="M19 8v6M16 11h6"/></svg>
+      Save contact
+    </a>
+    <div class="pair">
+      <a class="btn" href="tel:+12106502740">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+        Call
+      </a>
+      <a class="btn" href="mailto:jessica@craven.consulting">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        Email
+      </a>
+    </div>
+    <div class="pair">
+      <a class="btn" href="https://elidacravencpa.taxdome.com/">Client Portal</a>
+      <a class="btn" href="https://calendly.com/elidacpa/consulting-consultation">Book a Call</a>
+    </div>
+  </div>
+
+  <div class="details">
+    <div><span>Email</span><a href="mailto:jessica@craven.consulting">jessica@craven.consulting</a></div>
+    <div><span>Phone</span><a href="tel:+12106502740">+1 210 650 2740</a></div>
+  </div>
+
+  <div class="share">
+    <p>Scan to save my contact</p>
+    <div id="qr" aria-label="QR code linking to this card"></div>
+    <button type="button" id="dl">Download QR code</button>
+  </div>
+
+  <img class="logo" src="../images/craven-logo.png" alt="Craven Consulting">
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  var url = location.href.split('#')[0].split('?')[0];
+  var qr = new QRCode(document.getElementById('qr'), { text: url, width: 720, height: 720, colorDark: '#1b4237', colorLight: '#ffffff', correctLevel: QRCode.CorrectLevel.M });
+  document.getElementById('dl').addEventListener('click', function () {
+    var c = document.querySelector('#qr canvas');
+    var a = document.createElement('a');
+    a.href = c ? c.toDataURL('image/png') : document.querySelector('#qr img').src;
+    a.download = 'Jessica-Krueger-QR.png';
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+</script>
+</body>
+</html>
